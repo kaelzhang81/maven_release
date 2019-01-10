@@ -12,10 +12,10 @@ public class AppTest {
         assertEquals("hi world!", slogan);
     }
 
-    @Test
-    public void testInterface(){
-        App app = new App();
-        assertEquals("update", app.interf(true));
-        assertEquals("query", app.interf(false));
-    }
+//    @Test
+//    public void testInterface(){
+//        App app = new App();
+//        assertEquals("update", app.interf(true));
+//        assertEquals("query", app.interf(false));
+//    }
 }
