@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="com.kaelzhang.kata.AppTest" time="0.094" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="com.kaelzhang.kata.AppTest" time="0.085" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib"/>
@@ -32,6 +32,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="maven.repo.local" value="/Users/zhangye/.m2/repository"/>
     <property name="os.version" value="10.14.2"/>
     <property name="user.home" value="/Users/zhangye"/>
     <property name="user.timezone" value="Asia/Shanghai"/>
@@ -43,7 +44,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher package"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -D maven.repo.local=/Users/zhangye/.m2/repository -s /private/var/folders/tt/s8k8h_n10tq3xwcpngz40cv80000gn/T/release-settings1436412498462294326.xml clean verify"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="zh"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -59,5 +60,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.kaelzhang.kata.AppTest" name="com.kaelzhang.kata.AppTest.testSlogan" time="0.094"/>
+  <testcase classname="com.kaelzhang.kata.AppTest" name="com.kaelzhang.kata.AppTest.testSlogan" time="0.085"/>
 </testsuite>

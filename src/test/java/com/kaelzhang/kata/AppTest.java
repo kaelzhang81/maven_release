@@ -11,4 +11,11 @@ public class AppTest {
         String slogan = getSlogan("hi");
         assertEquals("hi world!", slogan);
     }
+
+    @Test
+    public void testInterface(){
+        App app = new App();
+        assertEquals("update", app.interf(true));
+        assertEquals("query", app.interf(false));
+    }
 }
